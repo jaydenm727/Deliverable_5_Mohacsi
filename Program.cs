@@ -13,7 +13,7 @@ namespace Deliverable_5_Mohacsi
             Random random = new Random();
             for (int i = 0; i < randomArray.Length; i++)
             {
-                randomArray[i] = random.Next(110, 50);
+                randomArray[i] = random.Next(10, 50);
             }
             return randomArray;
         }
