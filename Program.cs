@@ -47,7 +47,7 @@ namespace Deliverable_5_Mohacsi
 
             int[] retunedArray = MethodOne(myInt);
             
-            Console.WriteLine("The elements of the array is: " + String.Join(", ", retunedArray) + "\r\n");
+            Console.WriteLine("The elements of the array are: " + String.Join(", ", retunedArray) + "\r\n");
 
             int returnedSum = MethodTwo(retunedArray);
             
